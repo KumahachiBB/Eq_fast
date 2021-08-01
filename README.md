@@ -1,4 +1,6 @@
 # Eq_fast
+https://kumahachibb.github.io/Eq_fast/Eq_info/index.html
+
 気象庁のほうが確実で早い  
 デザインとかは全くできてない
 
