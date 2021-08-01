@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8" />
+    <script src="../lib/jquery-3.6.0.min.js"></script>
+    <script src="../lib/leaflet.js"></script>
+    <script src="../lib/topojson.min.js"></script>
+    <link rel="stylesheet" href="../lib/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>津波</title>
+</head>
+
+<body>
+    <div id="map"></div>
+    <select id="tsunami_selecter" onchange="jma_tsunamiget(this.value)"></select>
+    <script src="tsunamimap.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8" />
+    <script src="../lib/jquery-3.6.0.min.js"></script>
+    <script src="../lib/leaflet.js"></script>
+    <script src="../lib/topojson.min.js"></script>
+    <link rel="stylesheet" href="../lib/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="warnmap.js"></script>
+    <title>EEW警報地域</title>
+</head>
+
+<body>
+    <div id="map"></div>
+    <div id="type_select">
+        <input checked id="pref_check" onclick="warnarea_draw('pref')" type="radio" name="darea" />
+        <label for="pref_check">都道府県別</label>
+        <input id="area_check" onclick="warnarea_draw('region')" type="radio" name="darea" />
+        <label for="area_check">一次細分区域別</label>
+    </div>
+</body>
+
+</html>

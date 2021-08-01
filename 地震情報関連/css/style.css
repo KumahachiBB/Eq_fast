@@ -1,0 +1,114 @@
+#original .button {
+  display: inline-block;
+  font-size: 18pt;
+  /* 文字サイズ */
+  text-align: center;
+  /* 文字位置   */
+  cursor: pointer;
+  /* カーソル   */
+  padding: 12px 12px;
+  /* 余白       */
+  background: #4da6ff;
+  /* 背景色     */
+  color: #ffffff;
+  /* 文字色     */
+  line-height: 1em;
+  /* 1行の高さ  */
+  transition: .3s;
+  /* なめらか変化 */
+  border: 2px solid #4da6ff;
+  /* 枠の指定 */
+  margin: auto;
+}
+
+#original .button:hover {
+  color: #4da6ff;
+  /* 背景色     */
+  background: #ffffff;
+  /* 文字色     */
+}
+
+#original .disabled {
+  display: inline-block;
+}
+
+#original .disabled a {
+  pointer-events: none;
+  background: #C0C0C0;
+}
+
+#jmatitle {
+  display: flex;
+  align-items: center;
+  /* 縦位置の調整 */
+}
+
+#jmatitle::before, #jmatitle::after {
+  content: '';
+  flex-grow: 1;
+  /* 余白を分け与える */
+  height: 3px;
+  background: black;
+}
+
+/* 見出しの文字と横棒の間隔を開ける */
+
+#jmatitle::before {
+  margin-right: 20px;
+}
+
+#jmatitle::after {
+  margin-left: 20px;
+}
+
+#jma .button {
+  display: inline-block;
+  font-size: 18pt;
+  /* 文字サイズ */
+  text-align: center;
+  /* 文字位置   */
+  cursor: pointer;
+  /* カーソル   */
+  padding: 12px 12px;
+  /* 余白       */
+  background: #CCFF99;
+  /* 背景色     */
+  color: #000000;
+  /* 文字色     */
+  line-height: 1em;
+  /* 1行の高さ  */
+  transition: .3s;
+  /* なめらか変化 */
+  border: 2px solid #66FF33;
+  /* 枠の指定 */
+  margin: auto;
+}
+
+#jma .button:hover {
+  color: #4da6ff;
+  background: #ffffff;
+}
+
+#sptitle {
+  display: flex;
+  align-items: center;
+  /* 縦位置の調整 */
+}
+
+#sptitle::before, #sptitle::after {
+  content: '';
+  flex-grow: 1;
+  /* 余白を分け与える */
+  height: 3px;
+  background: black;
+}
+
+/* 見出しの文字と横棒の間隔を開ける */
+
+#sptitle::before {
+  margin-right: 20px;
+}
+
+#sptitle::after {
+  margin-left: 20px;
+}
