@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns="http://purl.org/rss/1.0/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xml:lang="ja">
+  <channel rdf:about="https://kumahachibb.github.io/Eq_fast/RSS/eq_fast.rss.xml">
+    <title>Eq_fast</title>
+    <link>https://kumahachibb.github.io/Eq_fast/Eq_info/index.html</link>
+    <dc:date>2021-08-02T13:18:41+09:00</dc:date>
+    <admin:generatorAgent rdf:resource="http://www.infomaker.jp/editorlite/?v=0.93" />
+    <items>
+      <rdf:Seq>
+        <rdf:li rdf:resource="https://kumahachibb.github.io/Eq_fast/Eq_info/index.html#he20210802"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+  <item rdf:about="https://kumahachibb.github.io/Eq_fast/Eq_info/index.html#he20210802">
+    <title>早い地震情報(最新の情報のみ)を追加</title>
+    <link>https://kumahachibb.github.io/Eq_fast/Eq_info/index.html</link>
+    <dc:date>2021-08-02</dc:date>
+    <description></description>
+  </item>
+
+</rdf:RDF>
