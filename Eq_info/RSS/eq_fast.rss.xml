@@ -6,16 +6,24 @@
   xmlns:admin="http://webns.net/mvcb/"
   xml:lang="ja">
   <channel rdf:about="https://kumahachibb.github.io/Eq_fast/Eq_info/RSS/eq_fast.rss.xml">
-    <title>Eq_fast</title>
+    <title>Eq_fast更新情報</title>
     <link>https://kumahachibb.github.io/Eq_fast/Eq_info/index.html</link>
-    <dc:date>2021-08-02T13:24:51+09:00</dc:date>
+    <dc:date>2021-08-04T21:51:54+09:00</dc:date>
     <admin:generatorAgent rdf:resource="http://www.infomaker.jp/editorlite/?v=0.93" />
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://kumahachibb.github.io/Eq_fast/Eq_info/Earthquake_fast/index.html#he20210804"/>
         <rdf:li rdf:resource="https://kumahachibb.github.io/Eq_fast/Eq_info/index.html#he20210802"/>
       </rdf:Seq>
     </items>
   </channel>
+  <item rdf:about="https://kumahachibb.github.io/Eq_fast/Eq_info/Earthquake_fast/index.html#he20210804">
+    <title>「早い地震情報」の震源情報の時の不具合を修正</title>
+    <link>https://kumahachibb.github.io/Eq_fast/Eq_info/Earthquake_fast/index.html</link>
+    <dc:date>2021-08-04</dc:date>
+    <description>・気象庁のページのリンクを変更　・早い地震情報のページのタイトル変更、塗りつぶし色の変更</description>
+  </item>
+
   <item rdf:about="https://kumahachibb.github.io/Eq_fast/Eq_info/index.html#he20210802">
     <title>早い地震情報(最新の情報のみ)を追加</title>
     <link>https://kumahachibb.github.io/Eq_fast/Eq_info/index.html</link>
